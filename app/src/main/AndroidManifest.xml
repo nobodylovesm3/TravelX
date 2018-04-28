@@ -40,11 +40,13 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
+
             android:name=".DestinationSwipe"
             android:label="@string/title_activity_destination_swipe"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 
 </manifest>
